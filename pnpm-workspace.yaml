@@ -1,0 +1,4 @@
+# Supply chain hardening: only install versions published at least 7 days ago,
+# transitive ones included, so a hijacked release is caught before it lands. An
+# urgent security patch can skip it with minimumReleaseAgeExclude.
+minimumReleaseAge: 10080 # minutes = 7 days

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "jaw": {
+      "command": "npx",
+      "args": ["-y", "@jaw.id/cli@0.3.9", "mcp"]
+    }
+  }
+}
