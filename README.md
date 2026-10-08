@@ -2,6 +2,8 @@
 
 A web app that pays for a cross-chain swap quote over [x402](https://github.com/x402-foundation/x402) and settles the swap through NEAR Intents. The wallet is a [JAW.id](https://jaw.id) smart account that signs with a passkey.
 
+Live at [x402-near-intents-demo.vercel.app](https://x402-near-intents-demo.vercel.app).
+
 ![The app after paying for the quote: the x402 paywall is paid and the swap is ready to send](media/screenshot.png)
 
 The flow, all on mainnet:
