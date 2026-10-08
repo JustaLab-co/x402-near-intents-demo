@@ -2,3 +2,7 @@
 # transitive ones included, so a hijacked release is caught before it lands. An
 # urgent security patch can skip it with minimumReleaseAgeExclude.
 minimumReleaseAge: 10080 # minutes = 7 days
+
+# Matches the lockfile, so a clean install outside this machine does not
+# depend on the user's global pnpm settings.
+autoInstallPeers: false

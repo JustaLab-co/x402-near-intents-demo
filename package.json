@@ -2,6 +2,7 @@
   "name": "x402-near-intents-demo",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@10.28.0",
   "scripts": {
     "dev": "next dev --experimental-https",
     "build": "next build",
